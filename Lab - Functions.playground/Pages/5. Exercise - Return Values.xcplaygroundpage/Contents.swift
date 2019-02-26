@@ -6,13 +6,13 @@
 func greeting(name: String) -> String {
     return("Hi, \(name)! How are you")
 }
-greeting(name: "Jonathan")
+print(greeting(name: "Jonathan"))
 /*:
  Write a function that takes two `Int` arguments, and returns an `Int`. The function should multiply the two arguments, add 2, then return the result. Use the function and print the result.
  */
 func calculation(_ number1: Int, _ number2: Int) -> Int {
     return number1 * number2 + 2
 }
-calculation(3, 5)
+print(calculation(3, 5))
 
 //: [Previous](@previous)  |  page 5 of 6  |  [Next: App Exercise - Separating Functions](@next)
