@@ -14,6 +14,8 @@
 		ABB7C00E2264CDA2006D6FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB7C00C2264CDA2006D6FBA /* LaunchScreen.storyboard */; };
 		ABB7C0192264CDA2006D6FBA /* OrderOfEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7C0182264CDA2006D6FBA /* OrderOfEventsTests.swift */; };
 		ABB7C0242264CDA2006D6FBA /* OrderOfEventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7C0232264CDA2006D6FBA /* OrderOfEventsUITests.swift */; };
+		ABB7C0322264CEC4006D6FBA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7C0312264CEC4006D6FBA /* SecondViewController.swift */; };
+		ABB7C0342264CEE6006D6FBA /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7C0332264CEE6006D6FBA /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		ABB7C01F2264CDA2006D6FBA /* OrderOfEventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderOfEventsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB7C0232264CDA2006D6FBA /* OrderOfEventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderOfEventsUITests.swift; sourceTree = "<group>"; };
 		ABB7C0252264CDA2006D6FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB7C0312264CEC4006D6FBA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		ABB7C0332264CEE6006D6FBA /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				ABB7C0032264CDA0006D6FBA /* AppDelegate.swift */,
 				ABB7C0052264CDA0006D6FBA /* ViewController.swift */,
+				ABB7C0312264CEC4006D6FBA /* SecondViewController.swift */,
+				ABB7C0332264CEE6006D6FBA /* ThirdViewController.swift */,
 				ABB7C0072264CDA0006D6FBA /* Main.storyboard */,
 				ABB7C00A2264CDA2006D6FBA /* Assets.xcassets */,
 				ABB7C00C2264CDA2006D6FBA /* LaunchScreen.storyboard */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB7C0322264CEC4006D6FBA /* SecondViewController.swift in Sources */,
 				ABB7C0062264CDA0006D6FBA /* ViewController.swift in Sources */,
+				ABB7C0342264CEE6006D6FBA /* ThirdViewController.swift in Sources */,
 				ABB7C0042264CDA0006D6FBA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
